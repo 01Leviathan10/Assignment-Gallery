@@ -5,11 +5,11 @@ body {
 #grid-container {
   max-width: 1920px;
   width: 90%;
-  margin: 40px 40px;
+  margin: 40px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 230px));
   grid-template-rows: 130px;
-  gap: 70px;
+  gap: 100px 70px;
 }
 #grid-container .thumb {
   height: 144px;
@@ -26,16 +26,18 @@ body {
 
 h1 {
   font-weight: normal;
-  margin: 30px;
+  margin: 40px;
   padding: 16px;
   color: gray;
 }
 
 p {
+  display: block;
   max-width: 1920px;
-  width: 90%;
+  width: 80%;
   padding: 8px;
-  margin: 30px;
+  margin: 40px;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
