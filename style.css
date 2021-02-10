@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+#grid-container {
+  max-width: 1920px;
+  width: 90%;
+  margin: 40px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 230px));
+  grid-template-rows: 130px;
+  gap: 70px;
+}
+#grid-container .thumb {
+  height: 144px;
+  border-radius: 8%;
+  padding: 16px;
+  background-size: 240px;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-color: #6CA2D9;
+  background-image: url(placeholder-image.png), linear-gradient(#6CA2D9 80%, #f8f0f0 80%);
+  text-align: center;
+  line-height: 290px;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 30px;
+  padding: 16px;
+  color: gray;
+}
+
+p {
+  max-width: 1920px;
+  width: 90%;
+  padding: 8px;
+  margin: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

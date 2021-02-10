@@ -1,0 +1,46 @@
+@import "colors";
+
+body{
+    font-family: sans-serif;
+}
+
+#grid-container{
+    max-width: 1920px;
+    width: 90%;
+    margin: 40px 40px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px,230px));
+    grid-template-rows: 130px;
+    gap: 70px;
+
+    .thumb{
+        height: 144px;
+        border-radius: 8%;
+        padding: 16px;
+
+        background-size: 240px;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        background-color: $blue-sky-color;
+        background-image: url(placeholder-image.png),
+                          linear-gradient($blue-sky-color 80% ,$dark-white-color 80%);
+
+        text-align: center;
+        line-height: 290px;
+    }
+}
+
+h1 {
+    font-weight: normal;
+    margin: 30px;
+    padding: 16px;
+    color: $header-spec-coor;
+}
+
+p {
+    max-width: 1920px;
+    width: 90%;
+    padding: 8px;
+    margin: 30px;
+}
